@@ -14,8 +14,12 @@ C=[[0,3,4,6,8,9,8,10],
 pca = PCA(n_components=2)
 X3d = pca.fit_transform(C)
 X3d=np.random.RandomState(42).rand(30,2)
+for
 np.random.shuffle(X3d)
 X3d=list(X3d)
+
+for i,city in enumerate(X3d):
+    city.append(i)
 
 Tour=[(X3d[-1])]
 NotinTour=list(X3d[:-1])
