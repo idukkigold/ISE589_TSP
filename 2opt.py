@@ -1,4 +1,4 @@
-#credits : https://stackoverflow.com/questions/25585401/travelling-salesman-in-scipy
+
 import matplotlib.pyplot as plt
 import numpy as np
 from sklearn.decomposition import PCA
